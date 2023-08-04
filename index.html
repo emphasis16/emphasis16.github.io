@@ -1,81 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Pengenalan Diri - Farrelino Arvia</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f7f7f7;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #4CAF50;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-        }
-
-        h1 {
-            color: #4CAF50;
-            margin-bottom: 20px;
-        }
-
-        p {
-            line-height: 1.6;
-            margin-bottom: 10px;
-        }
-
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-            margin-bottom: 10px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: #fff;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Roadmap to Become a Flutter Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Add the link to Poppins font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>Pengenalan Diri - Farrelino Arvia</h1>
-    </header>
+  <header>
+    <h1>Flutter Developer Roadmap</h1>
+  </header>
 
-    <div class="container">
-        <h2>Tentang Saya</h2>
-        <p>Selamat datang di website saya! Nama saya adalah Farrelino Arvia dan saya seorang Flutter developer. Saya tertarik dengan pengembangan aplikasi seluler dan telah bekerja dengan Flutter selama beberapa tahun.</p>
+  <main>
+    <section class="step">
+      <h2>Step 1: Dasar-dasar Pemrograman dan Bahasa Dart</h2>
+      <ul>
+        <li>Pelajari konsep dasar pemrograman seperti variabel, tipe data, operator, percabangan, dan perulangan.</li>
+        <li>Pelajari Bahasa Dart, bahasa pemrograman yang digunakan dalam Flutter.</li>
+      </ul>
+    </section>
 
-        <h2>Kemampuan</h2>
-        <ul>
-            <li>Flutter development</li>
-            <li>UI/UX design untuk aplikasi seluler</li>
-            <li>Integrasi API dan database</li>
-            <li>Pengujian dan debugging aplikasi</li>
-        </ul>
+    <section class="step">
+      <h2>Step 2: Pengenalan Flutter</h2>
+      <ul>
+        <li>Instalasi dan pengaturan SDK Flutter.</li>
+        <li>Membuat proyek Flutter pertama dan memahami struktur proyek.</li>
+        <li>Pelajari perbedaan antara Stateless dan Stateful Widgets.</li>
+      </ul>
+    </section>
 
-        <h2>Proyek Terbaru</h2>
-        <p>Saat ini, saya tengah mengerjakan proyek aplikasi e-commerce berbasis Flutter yang mengintegrasikan fitur-fitur terkini dan tampilan yang menarik.</p>
-    </div>
+    <section class="step">
+      <h2>Step 3: Widget dan UI Development</h2>
+      <ul>
+        <li>Memahami Widget Tree dan cara menyusun hierarki widget.</li>
+        <li>Menggunakan widget bawaan Material Design untuk menciptakan tampilan yang indah.</li>
+        <li>Menerapkan animasi sederhana menggunakan widget Animation dan Tween.</li>
+      </ul>
+    </section>
 
-    <footer>
-        &copy; 2023 Farrelino Arvia. All rights reserved.
-    </footer>
+    <section class="step">
+      <h2>Step 4: State Management</h2>
+      <ul>
+        <li>Mempelajari berbagai metode pengelolaan state di Flutter, seperti setState, Provider, BLoC, MobX, dll.</li>
+        <li>Implementasikan salah satu metode state management pada proyek Flutter Anda.</li>
+      </ul>
+    </section>
+
+    <section class="step">
+      <h2>Step 5: Navigasi dan Routing</h2>
+      <ul>
+        <li>Mempelajari cara menavigasi antara berbagai layar di aplikasi Flutter.</li>
+        <li>Menerapkan penggunaan routing untuk mengatur navigasi aplikasi.</li>
+      </ul>
+    </section>
+
+    <section class="step">
+      <h2>Step 6: Menggunakan API dan Data Asynchronous</h2>
+      <ul>
+        <li>Menggunakan paket HTTP untuk mengonsumsi API REST.</li>
+        <li>Mempelajari pemrograman asynchronous dengan menggunakan Future, async, await, dan Isolate.</li>
+      </ul>
+    </section>
+
+    <section class="step">
+      <h2>Step 7: Pengujian dan Debugging</h2>
+      <ul>
+        <li>Menulis unit test untuk aplikasi Flutter Anda.</li>
+        <li>Menggunakan alat bantu debugging dalam Flutter untuk mengidentifikasi dan memperbaiki bug.</li>
+      </ul>
+    </section>
+
+    <section class="step">
+      <h2>Step 8: Performance Optimization</h2>
+      <ul>
+        <li>Mengukur performa aplikasi dan mengidentifikasi area yang perlu dioptimasi.</li>
+        <li>Menerapkan teknik-teknik optimasi performa seperti lazy loading, caching, dan penggunaan widget yang efisien.</li>
+      </ul>
+    </section>
+
+    <section class="step">
+      <h2>Step 9: Platform Integration</h2>
+      <ul>
+        <li>Mengintegrasikan fitur-fitur perangkat seperti kamera, sensor, lokasi, dan notifikasi.</li>
+        <li>Menggunakan plugin dan package dari komunitas Flutter untuk memperluas fungsionalitas aplikasi.</li>
+      </ul>
+    </section>
+
+    <section class="step">
+      <h2>Step 10: Proyek Praktis</h2>
+      <ul>
+        <li>Memilih proyek nyata dan mengimplementasikan semua yang telah dipelajari.</li>
+        <li>Mempublikasikan aplikasi Flutter di Google Play Store atau App Store.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Flutter Developer Roadmap</p>
+  </footer>
+
 </body>
+
 </html>
